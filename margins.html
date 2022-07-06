@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Margins</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        section {
+            display: flex;
+        }
+
+        div {
+            width: 33.33%;
+            height: 300px;
+            font-size: 80px;
+            text-align: center;
+            line-height: 300px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            /* Margin - Individual Sides */
+            /* margin-top: 20px;
+            margin-right: 20px;
+            margin-left: 20px;
+            margin-bottom: 20px; */
+
+            
+            /* Margin - Shorthand Property */
+
+            /* margin: 10px 20px 30px 40px; */
+            /* top margin is 10px
+            right margin is 20px 
+            bottom margin is 30px 
+            left margin is 40px */
+
+            /* margin: 10px 20px 30px; */
+            /* top margin is 10px
+            right and left margins are 20px
+            bottom margin is 30px */
+
+            /* margin: 10px 20px; */
+            /* top and bottom margins are 10px
+            right and left margins are 20px */
+
+            /* margin: 10px; */
+            /* all four margins are 10px */
+        }
+
+        #first {
+            background-color: aquamarine;
+        }
+
+        #second {
+            background-color: blueviolet;
+        }
+
+        #third {
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div id="first">1</div>
+        <div id="second">2</div>
+        <div id="third">3</div>
+    </section>
+</body>
+
+</html>
